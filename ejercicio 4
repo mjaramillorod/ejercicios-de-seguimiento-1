@@ -1,0 +1,9 @@
+class Numero:
+
+    def potencias(self):
+        n = 3
+        print("Cuadrado:", n*n)
+        print("Cubo:", n*n*n)
+
+
+Numero().potencias()
