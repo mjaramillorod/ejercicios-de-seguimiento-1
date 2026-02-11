@@ -3,13 +3,13 @@ import math
 class Circulo:
 
     def calcular(self):
-        radio = 5
+        radio = 3
 
+        longitud = 2 * math.pi * radio
         area = math.pi * radio**2
-        longi = 2 * math.pi * radio
 
+        print("Longitud:", longitud)
         print("Area:", area)
-        print("Longitud:", longi)
 
 
 Circulo().calcular()
