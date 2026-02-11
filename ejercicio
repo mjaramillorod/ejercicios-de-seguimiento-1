@@ -1,0 +1,21 @@
+class Edades:
+
+    def calcular(self):
+        edad_juan = 9
+
+        edad_alberto = (2 * edad_juan) / 3
+        edad_ana = (4 * edad_juan) / 3
+        edad_mama = edad_juan + edad_alberto + edad_ana
+
+        print("Juan:", edad_juan)
+        print("Alberto:", edad_alberto)
+        print("Ana:", edad_ana)
+        print("Mama:", edad_mama)
+
+
+def ejecutar():
+    obj = Edades()
+    obj.calcular()
+
+
+ejecutar()
