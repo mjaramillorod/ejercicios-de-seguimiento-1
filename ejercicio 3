@@ -1,0 +1,16 @@
+class Empleado:
+
+    def salario(self):
+        horas = 48
+        valor = 5000
+
+        bruto = horas * valor
+        retencion = bruto * 0.125
+        neto = bruto - retencion
+
+        print("Bruto:", bruto)
+        print("Retencion:", retencion)
+        print("Neto:", neto)
+
+
+Empleado().salario()
